@@ -1,12 +1,11 @@
-name: 'Blog Custom Github Action'
- description: 'Call an API and get the result'
+name: 'mooghen'
+ description: 'Push to lexus amd try lol code'
  inputs:
-   pokemon_id:
+   lol:
      description: 'number of the pokemon in the pokedex'
      required: true
-     default: 1
  outputs:
-   pokemon_name:
+   lols:
      description: 'Name des Pokemons'
  runs:
    using: 'docker'
