@@ -1,7 +1,4 @@
-name: 'mooghen'
-  branding:
-   icon: 'testing'
-   color: 'gray-dark'
+name: 'mooghenact'
   description: 'Push to lexus amd try lol code'
   inputs:
     lol:
