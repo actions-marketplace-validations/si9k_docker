@@ -1,4 +1,6 @@
 name: 'mooghenact'
+icon: battery-charging
+color: black
 description: 'Push to lexus amd try lol code'
 inputs:
   lol:
