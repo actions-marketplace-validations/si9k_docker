@@ -1,13 +1,13 @@
 name: 'mooghenact'
-  description: 'Push to lexus amd try lol code'
-  inputs:
-    lol:
-      description: 'number of the pokemon in the pokedex'
-      required: true
-  outputs:
-    lols:
-      description: 'Name des Pokemons'
-  runs:
-    using: 'docker'
-    image: 'Dockerfile'
+description: 'Push to lexus amd try lol code'
+inputs:
+  lol:
+    description: 'number of the pokemon in the pokedex'
+    required: true
+outputs:
+  lols:
+    description: 'Name des Pokemons'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
 
