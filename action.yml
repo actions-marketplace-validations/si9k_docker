@@ -1,15 +1,16 @@
 name: 'mooghen'
- description: 'Push to lexus amd try lol code'
- inputs:
-   lol:
-     description: 'number of the pokemon in the pokedex'
-     required: true
- outputs:
-   lols:
-     description: 'Name des Pokemons'
- runs:
-   using: 'docker'
-   image: 'Dockerfile'
-branding:
-  icon: 'testing'
-  color: 'gray-dark'
+  branding:
+   icon: 'testing'
+   color: 'gray-dark'
+  description: 'Push to lexus amd try lol code'
+  inputs:
+    lol:
+      description: 'number of the pokemon in the pokedex'
+      required: true
+  outputs:
+    lols:
+      description: 'Name des Pokemons'
+  runs:
+    using: 'docker'
+    image: 'Dockerfile'
+
