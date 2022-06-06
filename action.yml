@@ -10,3 +10,6 @@ name: 'mooghen'
  runs:
    using: 'docker'
    image: 'Dockerfile'
+branding:
+  icon: 'testing'
+  color: 'gray-dark'
